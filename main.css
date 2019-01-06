@@ -1,0 +1,125 @@
+nav {
+	width: 100%;
+	background-color: #e6e6fa;
+	position: fixed;
+	top: 0;
+}
+
+.bar {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.bar a {
+	float: right;
+	text-align: center;
+	color: purple;
+	font-size: 25px;
+	margin-right: 50px;
+	margin-left: -35px;
+}
+
+.bar div {
+	float: left;
+	align-content: center;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+nav a:hover, a:visited, a:link, a:active {
+	/* to get rid of link underline */
+ 	text-decoration: none;
+}
+
+nav a:hover {
+	color: grey;
+}
+
+
+.nav-left {
+	float: left;
+}
+
+.nav-right {
+	float: right;
+}
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+main {
+	padding-left: 70px;
+	padding-top: 90px;
+}
+
+a:hover {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+a:active {
+	color: black;
+}
+
+.searchbar, .mag {
+	border-radius: 2px;
+	border: 1px solid lightgrey;
+	margin-top: 5px;
+	margin-right: 1px;
+	margin-bottom: 25px;
+}
+
+.searchbar {
+	width: 600px;
+	height: 25px;
+}
+
+.mag {
+	height: 27px;
+	position: fixed;
+}
+
+.search-pages {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	padding: 7px;
+	align-content: center;
+}
+
+.search-pages span {
+	/* separates the items in the search-pages nav */
+	border-right: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+	padding: 7px;
+}
+
+.search-results {
+	padding-top: 20px;
+	font-size: ;
+}
+
+.search-results span {
+	color: grey;
+}
+
+.search-results a {
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.search-results a:hover {
+	font-size: 20px;
+}
+
